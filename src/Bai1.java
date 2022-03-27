@@ -5,6 +5,7 @@ public class Bai1 {
         Date daymonYear = new Date();
         System.out.println("Gia tri: " +daymonYear);
         System.out.println("HeLLo Word!");
+        System.out.println("HeLLo Word!");
         }
     }
 
