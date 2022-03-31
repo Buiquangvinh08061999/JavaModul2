@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main3tinhdientich {
     public static void main(String[] args) {
+        // Tính diện tích hình chữ nhật:
         float width; // Nhập chiều rộng
         float height; // Nhập chiều dài
 
@@ -15,10 +16,6 @@ public class Main3tinhdientich {
 
         float S = width * height;
         System.out.println("Diện tích là: " + S);
-
-
-
-
 
     }
 }
