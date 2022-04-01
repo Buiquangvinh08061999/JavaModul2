@@ -34,7 +34,7 @@ public class Swichcase {
                 break;
             default:
                 System.out.println("Không có tháng này");
-                break;
+
         }
     }
 }
