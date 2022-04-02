@@ -8,10 +8,10 @@ public class USDmoveVn {
         double USD;
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Nhập USD cần đổi: ");
+        System.out.println("Nhập USD cần quy đổi :");
         USD = sc.nextDouble();
 
-        double quydoi = USD * VND;
-        System.out.println("Giá quy VNĐ là: " + quydoi);
+        double quyDoi = USD * VND;
+        System.out.println("Giá trị VNĐ là: " + quyDoi);
     }
 }
