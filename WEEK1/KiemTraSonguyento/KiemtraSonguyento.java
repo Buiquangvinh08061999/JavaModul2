@@ -22,7 +22,7 @@ public class KiemtraSonguyento {
         if(flag){
             System.out.println(n+" la so nguyen to");
         }else{
-            System.out.println(n+" khong phai la so nguyen toaa");
+            System.out.println(n+" khong phai la so nguyen to nhe");
         }
 
 
