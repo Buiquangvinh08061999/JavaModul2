@@ -10,6 +10,6 @@ public class String_do_while {
         Scanner sc = new Scanner(System.in);
         do {
             password= sc.nextLine();
-        }while (!password.equals("Helo"));
+        }while (!password.equals("Heloo"));
     }
 }

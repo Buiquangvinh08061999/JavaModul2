@@ -8,7 +8,7 @@ public class USDmoveVn {
         double USD;
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Nhập USD cần quy đổi :");
+        System.out.println("Nhập USD cần quy đổii :");
         USD = sc.nextDouble();
 
         double quyDoi = USD * VND;

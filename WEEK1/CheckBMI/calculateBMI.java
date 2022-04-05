@@ -10,7 +10,7 @@ public class calculateBMI {
         System.out.println("Nhập weight: ");
         weight = sc.nextFloat();
 
-        System.out.println("Nhập height: ");
+        System.out.println("Nhập heightt: ");
         height= sc.nextFloat();
 
         BMI = weight/Math.pow(height, 2);

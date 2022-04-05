@@ -27,7 +27,7 @@ public class Swichcase {
             case 6:
             case 9:
             case 11:
-                System.out.println("Tháng " + month +" Có 30 ngày");
+                System.out.println("Tháng " + month +" Có 30 ngàyy");
                 break;
             case 2:
                 System.out.println("Tháng " + month +" Có 28 or 29 ngày");

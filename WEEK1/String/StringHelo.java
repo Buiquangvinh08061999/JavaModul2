@@ -8,6 +8,6 @@ public class StringHelo {
         System.out.println("Nhập tên của bạn: ");
 
         String name = sc.nextLine();
-        System.out.println("Helo " + name);
+        System.out.println("Hello " + name);
     }
 }

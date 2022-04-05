@@ -18,7 +18,7 @@ public class CheckLeapYear {
                     System.out.println("Năm " + year +" không phải là năm nhuận");
                 }
             }else {
-                System.out.println("Năm " + year +" là năm nhuận");
+                System.out.println("Năm " + year +" là năm nhuậnn");
             }
         }else {
             System.out.println("Năm " + year +" không phải là năm nhuận");
