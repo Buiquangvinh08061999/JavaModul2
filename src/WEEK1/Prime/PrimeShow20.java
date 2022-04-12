@@ -5,27 +5,26 @@ import java.util.Scanner;
 public class PrimeShow20 {
     public static void main(String[] args) {
         int number;
-        int count = 1;
-        int n = 2;
+        int count = 0;
+        int N =2;
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập số nguyên tố: \b");
+        System.out.print("Nhập số nguyên tố muốn in ra:");
         number = sc.nextInt();
 
-        while (count <= number) {
+        while (count < number) {
             boolean flag = true;
-            for (int i = 2; i < n; i++) {
-                if (n % i == 0) {
+            for (int i = 2; i <= N-1; i++) {
+                if (N % i == 0) {
                     flag = false;
                     break;
                 }
             }
             if (flag) {
-                System.out.print(" " + n);
-                ;
+                System.out.print(" " + N);
                 count++;
             }
-            n++;
+            N++;
         }
     }
 }

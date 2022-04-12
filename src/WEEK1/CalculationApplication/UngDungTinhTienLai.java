@@ -21,5 +21,6 @@ public class UngDungTinhTienLai {
             tongLaiSuat += money * (laiSuat/100)/12*month;
         }
         System.out.println("Tỗng lãi xuất là:" + tongLaiSuat);
+
     }
 }

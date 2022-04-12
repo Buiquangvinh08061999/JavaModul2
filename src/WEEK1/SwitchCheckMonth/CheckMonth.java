@@ -31,6 +31,7 @@ public class CheckMonth {
                 break;
             default:
                 System.out.println("Không có tháng này");
+                break;
         }
     }
 }

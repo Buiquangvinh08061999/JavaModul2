@@ -83,7 +83,7 @@ public class ThucHanhMeNu {
                 case 4:
                     System.exit(0);
                 default:
-                    System.out.println("No choice");
+                System.out.println("No choice");
                     break;
 
             }
