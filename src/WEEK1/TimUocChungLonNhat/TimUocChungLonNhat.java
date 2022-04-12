@@ -25,6 +25,6 @@ public class TimUocChungLonNhat {
                 b = b-a;
             }
         }
-        System.out.println("Ước chung lớn nhất: " + a);
+        System.out.println("Ước chung lớn nhất là: " + a);
     }
 }
