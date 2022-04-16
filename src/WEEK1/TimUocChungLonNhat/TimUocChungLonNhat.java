@@ -16,7 +16,7 @@ public class TimUocChungLonNhat {
         b = Math.abs(b);
 
         if (a == 0 || b == 0) {
-            System.out.println("Không có ước cung lớn nhất: ");
+            System.out.println("Không có ước chung lớn nhất: ");
         }
         while (a != b) {
             if (a > b) {

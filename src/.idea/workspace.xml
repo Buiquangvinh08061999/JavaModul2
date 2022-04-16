@@ -1,24 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b084c7c-143d-4462-bc2f-fdc01020a91c" name="Changes" comment="">
+    <list default="true" id="782ededa-111e-4232-841c-500384ca8e59" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/WEEK1/USDmoveVND/bai1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/Text/newhay.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/Prime/PrimeNhoHon100.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/Prime/PrimeNhoHon100.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/USDmoveVND/USDmoveVND.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/USDmoveVND/USDmoveVND.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Text/newhay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEEK1/USDmoveVND/USDmoveVND.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEEK1/USDmoveVND/USDmoveVND.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/PhuongThucGoiLai/Tinhtongvosolan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/JavaModul2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/ArrayBasic_Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/ArrayCoppy/Arraycoppy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/ArrayRowVaColumn/ArrayRowVaColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/OneDimensionalArray/ArrayAllocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/OneDimensionalArray/ArrayOneString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/PhuongThucGoiLai/Tinhtongvosolan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/TwoDimensionalArray/ArrayTwoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/BookManagement/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/BookManagement/MyDaTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/BookManagement/TacGia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/BookManagement/TextALL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/CoffeeBill/CoffeeBill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/CoffeeBill/newCoffeeBill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/MyDaTetoString/MyDaTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/MyDaTetoString/newMyDaTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/Mydate/MyDaTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/Mydate/newMyDaTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/Person/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/Person/newPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/equals_hascode/equals_hascode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/Try_catch/TrycatchBasic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/Text/TestQuizVongLap1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/Text/TextQuiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/BasicWEEK1/Area.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/BasicWEEK1/Datatypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/BasicWEEK1/DateMonthYear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/BasicWEEK1/Operator3thrones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/BasicWEEK1/Quadratic1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/CalculationApplication/UngDungTinhTienLai.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/CheckBMI/CheckBMI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/Check_leapyear/Check_leapyear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/Prime/Prime1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/Prime/Prime2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/Prime/PrimeNhoHon100.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/Prime/PrimeShow20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/StringAll/StringFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/StringAll/StringHello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/StringAll/String_do_while.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/SwitchCheckMonth/CheckMonth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/ThietKeMeNu/MeNu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/ThietKeMeNu/ThucHanhMeNu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/TimUocChungLonNhat/TimUocChungLonNhat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/USDmoveVND/USDmoveVND.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -26,7 +68,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="27jcYbSxTnFxlaBOjOsxDCf7WLz" />
+  <component name="ProjectId" id="27jjFfmaM19EfnettzHQDLzRVDZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,97 +78,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RunManager" selected="Application.ArrayBasic_Index">
-    <configuration name="ArrayBasic_Index" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LearnJaVa.ArrayBasic.ArrayBasic_Index" />
-      <module name="JavaModul2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LearnJaVa.ArrayBasic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Arraycoppy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LearnJaVa.ArrayBasic.ArrayCoppy.Arraycoppy" />
-      <module name="JavaModul2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LearnJaVa.ArrayBasic.ArrayCoppy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MeNu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WEEK1.ThietKeMeNu.MeNu" />
-      <module name="JavaModul2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WEEK1.ThietKeMeNu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="USDmoveVND" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WEEK1.USDmoveVND.USDmoveVND" />
-      <module name="JavaModul2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="WEEK1.USDmoveVND.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ArrayBasic_Index" />
-        <item itemvalue="Application.Arraycoppy" />
-        <item itemvalue="Application.MeNu" />
-        <item itemvalue="Application.USDmoveVND" />
-      </list>
-    </recent_temporary>
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4b084c7c-143d-4462-bc2f-fdc01020a91c" name="Changes" comment="" />
-      <created>1649836984013</created>
+      <changelist id="782ededa-111e-4232-841c-500384ca8e59" name="Changes" comment="" />
+      <created>1649840290564</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649836984013</updated>
-      <workItem from="1649836985154" duration="924000" />
+      <updated>1649840290564</updated>
+      <workItem from="1649840294690" duration="28000" />
+      <workItem from="1649840367683" duration="57000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

@@ -3,6 +3,7 @@ package LearnJaVa.ArrayBasic.ArrayRowVaColumn;
 public class ArrayRowVaColumn {
     public static void main(String[] args) {
         //Duyệt qua hàng và cột trong mảng 2 chiều
+        //Và tính tổng các phần tử trong hàng và cột;
         int[][] matrix = new int[3][3];
         int total=0;
         for (int row = 0; row < matrix.length; row++) {
