@@ -5,26 +5,26 @@ import java.util.Scanner;
 
 public class deleteArray {
     public static void main(String[] args) {
-        int size,i,X,c;
-        int [] array;
+        int size, i, X, c;
+        int[] array;
         Scanner sc = new Scanner(System.in);
 
         do {
-            System.out.printf("Nhập chiều dài size: ");
+            System.out.printf("Nhập chiều dài size,(Nhập 0 để thoát chương trình): ");
             size = sc.nextInt();
-            if(size>1){
+            if (size > 1) {
                 array = new int[size];
-                for (i=0;i< array.length;i++){
-                    System.out.print("Nhập phần tử thứ ["+i+"] ");
+                for (i = 0; i < array.length; i++) {
+                    System.out.print("Nhập phần tử thứ [" + i + "] ");
                     array[i] = sc.nextInt();
                 }
-                System.out.println("Mảng sau khi nhập  là: "+ Arrays.toString(array));
+                System.out.println("Mảng sau khi nhập  là: " + Arrays.toString(array));
 
-                System.out.println("Nhập số X phần tử muốn xóa khỏi mảng: ");
+                System.out.println("Nhập số X phần tử muốn xóa khỏi mảng( Nhập -1 để dừng xóa):");
                 X = sc.nextInt();
 
-                for(c=i=0;i<size;i++){
-                    if(array[i] != X){
+                for (c = i = 0; i < size; i++) {
+                    if (array[i] != X) {
                         array[c] = array[i];
                         c++;
                     }
@@ -32,11 +32,11 @@ public class deleteArray {
                 size = c;
 
                 System.out.println("Mảng sau khi xóa phần tử " + X + " là: ");
-                for (i=0;i<size;i++){
+                for (i = 0; i < size; i++) {
                     System.out.printf(array[i] + "\t");
                 }
                 System.out.println("");
             }
-        }while (size !=0);
+        } while (size != 0);
     }
 }
