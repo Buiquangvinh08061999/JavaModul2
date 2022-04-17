@@ -5,15 +5,12 @@ import java.util.Scanner;
 
 public class two_wayArray_Column {
     public static void main(String[] args) {
-        int size1, size2;
-        int min =1;
-        int max =8;
+        int size1, size2,min =1,max =8,choice;
         int [][] array;
-        int choice;
         Scanner sc = new Scanner(System.in);
         do {
             System.out.println("Nhập 1 để Bắt Đầu chương trình:");
-            System.out.println("Nhập 0 để Kết Thúc chương trình");
+            System.out.println("Nhập 0 để Kết Thúc chương trình:");
             choice = sc.nextInt();
             switch (choice){
                 case 0:
@@ -23,10 +20,10 @@ public class two_wayArray_Column {
                     size1 = sc.nextInt();
                     System.out.println("Nhập size (số cột): ");
                     size2 = sc.nextInt();
-                    if(size1 <1 && size2 <1){
+                    if(size1 <=1 && size2 <=1){
                         System.out.println("Yêu cầu người dùng nhập số hàng và số cột >1");
                     }
-                    if(size1 >1 && size1<=50 && size2>1 &&size2<=50){
+                    if(size1 >1 && size2>1 ){
                         array = new int[size1][size2];
                         for (int i = 0; i < array.length;i++){
                             for (int j =0; j < array[i].length;j++){
