@@ -32,6 +32,19 @@ public class tow_wayArray_total {
                     }
                 }
                 System.out.println("Tổng đường chéo chính là: " + total);
+
+
+                System.out.println("Nhập số cột: ");
+                int number = sc.nextInt();
+                int totalColumn =0;
+                for (int i = 0; i < array.length; i++) {
+                    for (int j = 0; j < array[i].length; j++) {
+                        if(j == number){
+                            totalColumn+=array[i][j];
+                        }
+                    }
+                }
+                System.out.println("Tổng cột " + number + " là: " + totalColumn);
             }
         } while (size != 0);
 
