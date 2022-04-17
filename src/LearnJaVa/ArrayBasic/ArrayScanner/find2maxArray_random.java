@@ -2,7 +2,7 @@ package LearnJaVa.ArrayBasic.ArrayScanner;
 
 import java.util.Scanner;
 import java.util.Arrays;
-public class find2maxArray {
+public class find2maxArray_random {
     public static void main(String[] args) {
         int size1,size2;
         int min, max;
