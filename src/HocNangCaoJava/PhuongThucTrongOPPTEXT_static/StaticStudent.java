@@ -1,11 +1,11 @@
 package HocNangCaoJava.PhuongThucTrongOPPTEXT;
 
-public class stactic {
+public class StaticStudent {
     public  int ID;
     public  String name;
     static String college = "CODEGYM";
 
-    public stactic(int ID, String name){
+    public StaticStudent(int ID, String name){
         this.ID = ID;
         this.name = name;
     }
@@ -14,8 +14,8 @@ public class stactic {
     }
 
     public static void main(String[] args) {
-        stactic std1 = new stactic(1,"Vinh");
-        stactic std2 = new stactic(2, "Top");
+        StaticStudent std1 = new StaticStudent(1,"Vinh");
+        StaticStudent std2 = new StaticStudent(2, "Top");
         std1.getAll();
         std2.getAll();
     }
