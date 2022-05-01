@@ -35,6 +35,8 @@ public class tow_wayArray_total {
 
             }
         } while (size != 0);
+        //Dùng str.charAt(i): để duyệt qua các phần tử; nếu có phần từ nào trùng vs biến
+        //tim = 'v', thì biến count sẽ đếm số lần (nếu trùng nhau)
 
     }
 }

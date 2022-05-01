@@ -2,74 +2,236 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="782ededa-111e-4232-841c-500384ca8e59" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WEEK1/USDmoveVND/bai1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/Text/newhay.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/Prime/PrimeNhoHon100.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/Prime/PrimeNhoHon100.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/USDmoveVND/USDmoveVND.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/USDmoveVND/USDmoveVND.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/Deploy_interface_Colorable/Colorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/interface_Animal_ACU/AngryBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/interface_Animal_ACU/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/interface_Animal_ACU/Bolt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/interface_Animal_ACU/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/interface_Animal_ACU/Machine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/interface_Animal_ACU/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/interface_Animal_ACU/MrQueen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/interface_Animal_ACU/Nemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/interface_Animal_ACU/Runable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/interface_Animal_ACU/Siddeley.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/interface_Animal_ACU/Swimable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_dsa_list/exercise/use_arraylist_with_library/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_dsa_list/exercise/use_arraylist_with_library/Mylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_dsa_list/exercise/use_linkedlist_with_library/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_dsa_list/exercise/use_linkedlist_with_library/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_dsa_list/practice/linkedlist_simple/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_dsa_list/practice/linkedlist_simple/TestMyLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_dsa_list/practice/list_simple/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_dsa_list/practice/list_simple/MylistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_dsa_list/practice/practice_arraylist/arraylist1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_java_collection_framework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_search_algorithm/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_sort_algorithms/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_exception_handling_and_debug/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16_io_test_file/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17_io_binary_file_serialization/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_19_string_regex/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/Deploy_interface _Comparator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/out/production/Deploy_interface _Comparator/Deploy_interface_Comparator/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/out/production/Deploy_interface _Comparator/Deploy_interface_Comparator/CircleComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/out/production/Deploy_interface _Comparator/Deploy_interface_Comparator/CircleComparatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/out/production/Deploy_interface _Comparator/Deploy_interface_Comparator/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/out/production/Deploy_interface _Comparator/Deploy_interface_ComparatorLamLai/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/out/production/Deploy_interface _Comparator/Deploy_interface_Resizeable/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/out/production/Deploy_interface _Comparator/Deploy_interface_Resizeable/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/out/production/Deploy_interface _Comparator/Deploy_interface_Resizeable/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/out/production/Deploy_interface _Comparator/Deploy_interface_Resizeable/Resizeable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/out/production/Deploy_interface _Comparator/Deploy_interface_Resizeable/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/out/production/Deploy_interface _Comparator/Deploy_interface_Resizeable/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/Deploy_interface_Resizeable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/Deploy_interface_Resizeable/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/Deploy_interface_Resizeable/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/Deploy_interface_Resizeable/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/Deploy_interface_Resizeable/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/Deploy_interface_Resizeable/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/Deploy_interface_Resizeable/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/Deploy_interface_Resizeable/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/ThucHanh-interface-Comparable.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/out/production/ThucHanh-interface-Comparable/Deploy_interface_Comparable/Cirle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/out/production/ThucHanh-interface-Comparable/Deploy_interface_Comparable/ComparableCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/out/production/ThucHanh-interface-Comparable/Deploy_interface_Comparable/ComparableCircleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/out/production/ThucHanh-interface-Comparable/Deploy_interface_Comparable/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/out/production/ThucHanh-interface-Comparable/com/codegym/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/src/Deploy_interface_Comparable/Cirle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/src/Deploy_interface_Comparable/ComparableCircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/src/Deploy_interface_Comparable/ComparableCircleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/src/Deploy_interface_Comparable/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Deploy_interface _Comparator/src/Deploy_interface_Colorable/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThucHanh-interface-Comparable/src/com/codegym/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Inheritance_practiceBaiTap/Point2DvaPoint3D/Point2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Inheritance_practiceBaiTap/Point2DvaPoint3D/Point3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Inheritance_practiceBaiTap/Point2DvaPoint3D/Test2Dva3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Inheritance_practiceBaiTap/PointvaMoveablePoint/MovablePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Inheritance_practiceBaiTap/PointvaMoveablePoint/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Inheritance_practiceBaiTap/PointvaMoveablePoint/TestPointvaMovablePoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Inheritance_practiceBaiTap/Shape/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Inheritance_practiceBaiTap/Shape/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Inheritance_practiceBaiTap/Shape/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Interface/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Interface/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Interface/Chicken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Interface/Edible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Interface/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Interface/Orange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Interface/TestEdible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/Interface/Tiger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/ThucHanhinterface/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/ThucHanhinterface/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/ThucHanhinterface/Chicken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/ThucHanhinterface/Edible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/ThucHanhinterface/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/ThucHanhinterface/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/ThucHanhinterface/Orange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/ThucHanhinterface/Tiger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/abstractClass/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/abstractClass/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/abstractClass/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/abstractClass/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/com/codegym/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/comparableVacompareTo/SortComparableObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/lamlaiInterface/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/lamlaiInterface/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/lamlaiInterface/Chicken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/lamlaiInterface/Edible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/lamlaiInterface/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/lamlaiInterface/Orange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/lamlaiInterface/TestEdible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week2/src/lamlaiInterface/Tiger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/ArrayBasic/ArrayBasic_Index.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/ArrayBasic/ArrayCoppy/Arraycoppy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/ArrayBasic/ArrayRowVaColumn/ArrayRowVaColumn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/ArrayBasic/OneDimensionalArray/ArrayAllocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/ArrayBasic/OneDimensionalArray/ArrayOneString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/ArrayBasic/TwoDimensionalArray/ArrayTwoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/OOPBasic/BookManagement/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/OOPBasic/BookManagement/MyDaTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/OOPBasic/BookManagement/TacGia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/OOPBasic/BookManagement/TextALL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/OOPBasic/CoffeeBill/CoffeeBill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/OOPBasic/CoffeeBill/newCoffeeBill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/OOPBasic/MyDaTetoString/MyDaTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/OOPBasic/MyDaTetoString/newMyDaTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/OOPBasic/Mydate/MyDaTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/OOPBasic/Mydate/newMyDaTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/OOPBasic/Person/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/OOPBasic/Person/newPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/OOPBasic/equals_hascode/equals_hascode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/LearnJaVa/Try_catch/TrycatchBasic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/Text/TestQuizVongLap1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/Text/TextQuiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/BasicWEEK1/Area.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/BasicWEEK1/Datatypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/BasicWEEK1/DateMonthYear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/BasicWEEK1/Operator3thrones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/BasicWEEK1/Quadratic1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/CalculationApplication/UngDungTinhTienLai.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/CheckBMI/CheckBMI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/Check_leapyear/Check_leapyear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/Prime/Prime1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/Prime/Prime2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/Prime/PrimeNhoHon100.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/Prime/PrimeShow20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/StringAll/StringFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/StringAll/StringHello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/StringAll/String_do_while.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/SwitchCheckMonth/CheckMonth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/ThietKeMeNu/MeNu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/ThietKeMeNu/ThucHanhMeNu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/TimUocChungLonNhat/TimUocChungLonNhat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JavaModul2/WEEK1/USDmoveVND/USDmoveVND.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/PhuongThucGoiLai/Tinhtongvosolan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/JavaModul2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/ArrayBasic_Index.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/ArrayCoppy/Arraycoppy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/ArrayRowVaColumn/ArrayRowVaColumn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/OneDimensionalArray/ArrayAllocation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/OneDimensionalArray/ArrayOneString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/PhuongThucGoiLai/Tinhtongvosolan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/ArrayBasic/TwoDimensionalArray/ArrayTwoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/BookManagement/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/BookManagement/MyDaTe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/BookManagement/TacGia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/BookManagement/TextALL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/CoffeeBill/CoffeeBill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/CoffeeBill/newCoffeeBill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/MyDaTetoString/MyDaTe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/MyDaTetoString/newMyDaTe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/Mydate/MyDaTe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/Mydate/newMyDaTe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/Person/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/Person/newPerson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/OOPBasic/equals_hascode/equals_hascode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/LearnJaVa/Try_catch/TrycatchBasic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/Text/TestQuizVongLap1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/Text/TextQuiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/BasicWEEK1/Area.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/BasicWEEK1/Datatypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/BasicWEEK1/DateMonthYear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/BasicWEEK1/Operator3thrones.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/BasicWEEK1/Quadratic1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/CalculationApplication/UngDungTinhTienLai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/CheckBMI/CheckBMI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/Check_leapyear/Check_leapyear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/Prime/Prime1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/Prime/Prime2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/Prime/PrimeNhoHon100.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/Prime/PrimeShow20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/StringAll/StringFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/StringAll/StringHello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/StringAll/String_do_while.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/SwitchCheckMonth/CheckMonth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/ThietKeMeNu/MeNu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/ThietKeMeNu/ThucHanhMeNu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/TimUocChungLonNhat/TimUocChungLonNhat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaModul2/WEEK1/USDmoveVND/USDmoveVND.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_ACU/BubbleSort/BubbleSort_Sapxeptangdan_NoiBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_ACU/BubbleSort/BubbleSort_Sapxeptangdan_NoiBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_ACU/BubbleSort/BubleSortPhuongThuc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_ACU/BubbleSort/BubleSortPhuongThuc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_ACU/DemoOOP/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_ACU/DemoOOP/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_ACU/InsertionSort/InsertionSortPhuongThuc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_ACU/InsertionSort/InsertionSortPhuongThuc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_ACU/Overloading/DemoBai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_ACU/Overloading/DemoBai1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_ACU/SelectionSort/MyDaTe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_ACU/SelectionSort/MyDaTe1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_ACU/SelectionSort/SelectionePhuongThuc.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_ACU/SelectionSort/SelectionePhuongThuc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_ACU/SelectionSort/SortUpAscending_sapxeptangdan.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_ACU/SelectionSort/SortUpAscending_sapxeptangdan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise_ACU/textQuizArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise_ACU/textQuizArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HocNangCaoJava/ArrayList/Bai1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HocNangCaoJava/PhuongThucTrongOPPTEXT_static/CoBienStatic_SeNTN.java" beforeDir="false" afterPath="$PROJECT_DIR$/HocNangCaoJava/PhuongThucTrongOPPTEXT_static/CoBienStatic_SeNTN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HocNangCaoJava/PhuongThucTrongOPPTEXT_static/KhongCoBienStatic_SeNTN.java" beforeDir="false" afterPath="$PROJECT_DIR$/HocNangCaoJava/PhuongThucTrongOPPTEXT_static/KhongCoBienStatic_SeNTN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HocNangCaoJava/PhuongThucTrongOPPTEXT_static/StacticDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/HocNangCaoJava/PhuongThucTrongOPPTEXT_static/StacticDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HocNangCaoJava/PhuongThucTrongOPPTEXT_static/StaticStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/HocNangCaoJava/PhuongThucTrongOPPTEXT_static/StaticStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HocNangCaoJava/PhuongThucTrongOPPTEXT_static/code.java" beforeDir="false" afterPath="$PROJECT_DIR$/HocNangCaoJava/PhuongThucTrongOPPTEXT_static/code.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HocNangCaoJava/PhuongThucTrongOPPTEXT_static/textcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/HocNangCaoJava/PhuongThucTrongOPPTEXT_static/textcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HocNangCaoJava/UseStringMeThod/PhuongthucStringMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/HocNangCaoJava/UseStringMeThod/PhuongthucStringMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayCoppy/Arraycoppy.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayCoppy/Arraycoppy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayScanner/ADDArray_baihayapdung.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayScanner/ADDArray_baihayapdung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayScanner/countString.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayScanner/countString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayScanner/deleteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayScanner/deleteArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayScanner/find2maxArray_random.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayScanner/find2maxArray_random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayScanner/maxArray2_import.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayScanner/maxArray2_import.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayScanner/tow_wayArray_total.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/ArrayBasic/ArrayScanner/tow_wayArray_total.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/Classx2Class_longnhau/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/Classx2Class_longnhau/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/Classx2Class_longnhau/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/Classx2Class_longnhau/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Inheritance_kethua/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Inheritance_kethua/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Inheritance_kethua/Geometric.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Inheritance_kethua/Geometric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Inheritance_kethua/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Inheritance_kethua/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Inheritance_kethua/TestCircleRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Inheritance_kethua/TestCircleRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overloading_napchongphuongthuc/MyMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overloading_napchongphuongthuc/MyMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overloading_napchongphuongthuc/TestMyMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overloading_napchongphuongthuc/TestMyMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overriding_ghidephuongthuc/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overriding_ghidephuongthuc/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overriding_ghidephuongthuc/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overriding_ghidephuongthuc/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overriding_ghidephuongthuc/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overriding_ghidephuongthuc/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overriding_ghidephuongthuc/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overriding_ghidephuongthuc/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overriding_ghidephuongthuc/testDog_Cat_Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/Overriding_ghidephuongthuc/testDog_Cat_Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/PersonNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/PersonNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/ThuchanhStactic/Car_staticProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/ThuchanhStactic/Car_staticProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/ThuchanhStactic/Student_staticmethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJaVa/OOPBasic/JAMES_OOP_CODEGYM/ThuchanhStactic/Student_staticmethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text/TextquizOOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Text/TextquizOOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEEK1/BasicWEEK1/TinhGiaiThua.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEEK1/BasicWEEK1/TinhGiaiThua.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEEK1/BasicWEEK1/UngDungDocSoThanhChu.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEEK1/BasicWEEK1/UngDungDocSoThanhChu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEEK1/ThietKeMeNu/ThucHanhMeNu.java" beforeDir="false" afterPath="$PROJECT_DIR$/WEEK1/ThietKeMeNu/ThucHanhMeNu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-1.8.0_322/src.zip!/java/lang/IndexOutOfBoundsException.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27jjFfmaM19EfnettzHQDLzRVDZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -77,10 +239,88 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+  </component>
+  <component name="RunManager" selected="Application.TestMyLinkList">
+    <configuration name="MyDaTe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise_ACU.SelectionSort.MyDaTe1" />
+      <module name="JavaModul2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercise_ACU.SelectionSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_dsa_list.practice.linkedlist_simple.MyLinkedList" />
+      <module name="JavaModul2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_10_dsa_list.practice.linkedlist_simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MylistTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_dsa_list.practice.list_simple.MylistTest" />
+      <module name="JavaModul2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_10_dsa_list.practice.list_simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_dsa_list.practice.linkedlist_simple.TestMyLinkList" />
+      <module name="JavaModul2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_10_dsa_list.practice.linkedlist_simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arraylist1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_dsa_list.practice.practice_arraylist.arraylist1" />
+      <module name="JavaModul2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_10_dsa_list.practice.practice_arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestMyLinkList" />
+        <item itemvalue="Application.MylistTest" />
+        <item itemvalue="Application.MyLinkedList" />
+        <item itemvalue="Application.MyDaTe1" />
+        <item itemvalue="Application.arraylist1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -92,10 +332,43 @@
       <updated>1649840290564</updated>
       <workItem from="1649840294690" duration="28000" />
       <workItem from="1649840367683" duration="57000" />
+      <workItem from="1650880114112" duration="76000" />
+      <workItem from="1651217722842" duration="825000" />
+      <workItem from="1651286695811" duration="1989000" />
+      <workItem from="1651304293788" duration="16000" />
+      <workItem from="1651305556496" duration="105000" />
+      <workItem from="1651305742823" duration="14000" />
+      <workItem from="1651305787954" duration="66000" />
+      <workItem from="1651306189529" duration="5119000" />
+      <workItem from="1651315330153" duration="602000" />
+      <workItem from="1651320992791" duration="6431000" />
+      <workItem from="1651393108700" duration="5982000" />
+      <workItem from="1651409647507" duration="1138000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

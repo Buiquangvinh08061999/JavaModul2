@@ -32,6 +32,7 @@ public class deleteArray {
                 size = c;
 
                 System.out.println("Mảng sau khi xóa phần tử " + X + " là: ");
+
                 for (i = 0; i < size; i++) {
                     System.out.printf(array[i] + "\t");
                 }

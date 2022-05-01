@@ -1,11 +1,11 @@
 package LearnJaVa.OOPBasic.JAMES_OOP_CODEGYM.ThuchanhStactic;
 
-public class Student {
+public class Student_staticmethod {
     private int ID;
     private String name;
     private static String college = "Bach Khoa";
 
-    public Student(int ID, String name) {
+    public Student_staticmethod(int ID, String name) {
         this.ID = ID;
         this.name = name;
     }
@@ -15,13 +15,14 @@ public class Student {
     }
 
     public String toString() {
-      return String.format("{id: %d, name: %s, college: %s}", ID, name, college);
+      return String.format("id: %d, name: %s, college: %s", ID, name, college);
     }
 
 
     public static void main(String[] args) {
-        Student st1 = new Student(1,"Vinh");
-        Student st2 = new Student(2,"Quang");
+        Student_staticmethod st1 = new Student_staticmethod(1,"Vinh");
+        Student_staticmethod st2 = new Student_staticmethod(2,"Quang");
+
         System.out.println(st1.toString());
 
         change(); /*gọi lài thì college: sẽ thành: CODEGYM*/

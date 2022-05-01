@@ -55,6 +55,7 @@ public class ThucHanhMeNu {
                         System.out.println("");
                         }
 
+
 //                  Tam giác 1 đến 5 sao ngược
                     for (int i = 5; i >= 1; i--) {
                         for (int j = 1; j <=i; j++) {
@@ -74,6 +75,17 @@ public class ThucHanhMeNu {
                             System.out.print(" ");
                         }
                         for (int k=1; k<=i*2+1; k++){
+                            System.out.print("*");
+                        }
+                        System.out.println("");
+                    }
+
+                    //Cách của Lý hay.
+                    for (int i = 0; i <= 6; i++) {
+                        for (int space = 7-i; space >= 1; space --) {
+                            System.out.print(" ");
+                        }
+                        for (int j = 0; j < i*2 +1; j ++) {
                             System.out.print("*");
                         }
                         System.out.println("");

@@ -2,9 +2,10 @@ package Exercise_ACU.InsertionSort;
 
 import java.util.Arrays;
 
-public class InsertionSort {
+public class InsertionSortPhuongThuc {
+    // public void tự nhận giá trị . không cần trả về return.
+    //InsertionSort: so sánh giá trị j--, tức là nhảy lui
 
-    // public void tự nhận giá trị . không cần trả về return
     public  void sort (int[]array) {
         for (int i = 1; i < array.length; i++) {
             for (int j = i - 1; j >= 0; j--) {
@@ -17,7 +18,7 @@ public class InsertionSort {
         }
     }
     public static void main(String[] args) {
-        InsertionSort sort = new InsertionSort();
+        InsertionSortPhuongThuc sort = new InsertionSortPhuongThuc();
         int [] array = {1,6,2,4,11,5};
         sort.sort(array);
 

@@ -1,4 +1,4 @@
-package HocNangCaoJava.PhuongThucTrongOPPTEXT;
+package HocNangCaoJava.PhuongThucTrongOPPTEXT_static;
 
 public class CoBienStatic_SeNTN {
    static int count = 0;

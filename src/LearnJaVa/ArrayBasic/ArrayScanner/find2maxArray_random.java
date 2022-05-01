@@ -28,7 +28,7 @@ public class find2maxArray_random {
                 array[i][j] =(int) Math.floor((Math.random() * max - min + 1) + min);
             }
         }
-        System.out.println(Arrays.deepToString(array));
+        System.out.println("Mảng là " +Arrays.deepToString(array));
 
         int so_max = array[0][0];
         for (int i = 0; i< array.length;i++) {

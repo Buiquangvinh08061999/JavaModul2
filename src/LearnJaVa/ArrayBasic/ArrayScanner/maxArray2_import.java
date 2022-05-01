@@ -15,7 +15,6 @@ public class maxArray2_import {
                 System.out.println("Nhập chiều dài size không quá 10");
             }
         }while (size >10);
-
         array = new int[size];
 
         for (int i =0; i< array.length;i++){

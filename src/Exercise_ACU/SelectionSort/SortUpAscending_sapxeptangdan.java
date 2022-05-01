@@ -1,23 +1,23 @@
 package Exercise_ACU.SelectionSort;
 import java.util.Arrays;
-public class Bai1 {
+public class SortUpAscending_sapxeptangdan {
     public static void main(String[] args) {
-        int[] array= {10,7,5,6,8,9,22,2,3};
+        int[] array= {10,5,7,8,4,11,1};
         System.out.println("Mảng ban đầu là: " + Arrays.toString(array));
-        maxValue(array);
-        System.out.println("Mảng sau khi sắp xếp tăng dần là:" + Arrays.toString(array));
+        shortValue(array);
+        System.out.println("Mảng sau khi SelectionSort là:" + Arrays.toString(array));
     }
-    public static int[] maxValue(int[] array){
-        for(int i=0;i<array.length-1;i++){
+    public static void shortValue(int[] array){
+        for(int i=0;i<array.length;i++){
             for(int j=i+1;j<array.length;j++){
                 if(array[i] > array[j]){
-                    int x = array[i];
+                    int temp = array[i];
                     array[i] = array[j];
-                    array[j] = x;
+                    array[j] = temp;
                 }
             }
         }
-        return  array;
+//        return  array;
 
     }
 }

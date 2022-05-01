@@ -1,4 +1,4 @@
-package HocNangCaoJava.PhuongThucTrongOPPTEXT;
+package HocNangCaoJava.PhuongThucTrongOPPTEXT_static;
 
 public class StacticDemo {
    static {
