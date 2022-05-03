@@ -1,31 +1,32 @@
 package _10_dsa_list.practice.list_simple;
+
 import  java.util.Arrays;
+
 public class MyList<E> {
-
     private int size = 0;
-    private static final int DEFAULT_CAPACITY = 10;
-    private Object elements[];
+    private static final int DEFAULT_CAPACCITY =10;
+    private Object element[];
 
-
-    public MyList() {
-        elements = new Object[DEFAULT_CAPACITY];
+    public MyList(){
+        element = new Object[DEFAULT_CAPACCITY];
     }
-
-    private void ensureCapa() {
-        int newSize = elements.length * 2;
-        elements = Arrays.copyOf(elements, newSize);
+    public void  ensureCapa(){
+        int newSize  = element.length *2;
+        element = Arrays.copyOf(element, newSize);
     }
-
-    public void add(E e) {
-        if (size == elements.length) {
+    public void add(E e){
+        if(size == element.length){
             ensureCapa();
         }
-        elements[size++] = e;
+        element[size++] =e;
     }
-    public E get(int i) {
-        if (i>= size || i <0) {
-            throw new  IndexOutOfBoundsException ("Index: " + i + ", Size " + i );
+    public E get(int i){
+        if(i >=size || i<0){
+            System.out.println("Index : " + i + ", Size" + i);
         }
-        return (E) elements[i];
+        return (E) element[i];
     }
+
+
+
 }
