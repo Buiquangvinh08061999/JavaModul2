@@ -5,15 +5,16 @@ import java.util.Scanner;
 public class arraylist1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String [] animals = {"Heo","Bo","Ga","Vit"};
-       for (String animal : animals){
-           System.out.printf(animal+ " ");
-       }
+        int [] array = {10,5,8,3,4,12,15};
+        int max =array[0];
 
-//        System.out.println("Enter a:");
-//        int a = sc.nextInt();
+        for (int i = 0 ; i < array.length;i++){
+            if (array[i] > max){
+                max = array[i];
 
-//        System.out.println(animals);
+            }
+        }
+        System.out.println("lon nhat la" + max);
 
 
     }
