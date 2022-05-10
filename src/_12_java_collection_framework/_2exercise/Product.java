@@ -1,11 +1,11 @@
 package _12_java_collection_framework._2exercise;
 
-public class Product {
+public class Product_demo {
     private int id;
-    private  String name;
+    private String name;
     private double price;
 
-    public Product(int id, String name, double price) {
+    public Product_demo(int id, String name, double price) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -37,11 +37,10 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product[" +
+        return "Product_1[" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", price=" + price +
                 ']';
     }
-
 }

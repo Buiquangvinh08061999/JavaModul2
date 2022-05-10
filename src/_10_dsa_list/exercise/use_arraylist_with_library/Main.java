@@ -6,7 +6,10 @@ public class Main {
         mylist.add(1);
         mylist.add(2);
         mylist.add(3);
-        mylist.add(4);
+        mylist.add(4);;
+//        mylist.add(2,5);;
+        mylist.remove(2);
+
         System.out.println(mylist.toString());
     }
 }
