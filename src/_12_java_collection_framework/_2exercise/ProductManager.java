@@ -18,7 +18,7 @@ public class ProductManager {
     mainMenu();
     }
     public static void displayProduct(){
-        for (Product product:listProduct){
+        for (Product product : listProduct){
             System.out.println(product.toString());
         }
     }
