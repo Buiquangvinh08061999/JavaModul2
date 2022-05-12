@@ -38,6 +38,8 @@ public class MyLinkedList1<E> {
         numNodes++;
     }
 
+
+
     public void addLast(E e) {
         if (numNodes == 0) {
             head = new Node(e);
@@ -58,6 +60,8 @@ public class MyLinkedList1<E> {
         if (index < 0 || index >= numNodes) {
             System.out.println("Chỉ mục không hợp lệ");
         } else {
+
+
             Node temp = head;
             for (int i = 0; i < index - 1 && temp.next != null; i++) {
                 temp = temp.next;
@@ -120,12 +124,6 @@ public class MyLinkedList1<E> {
         }
     }
 
-    public static void main(String[] args) {
-        int a = 1;
-        int b = a;
-        a = 2;
-        System.out.println(b);
-    }
 
 
 }

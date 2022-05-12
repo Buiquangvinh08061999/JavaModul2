@@ -2,11 +2,12 @@ package _12_java_collection_framework._2exercise;
 
 import java.util.Comparator;
 
-public class ProductSort implements Comparator<Product_demo> {
+public class ProductAscending implements Comparator<Product> {
     @Override
-    public int compare(Product_demo o1, Product_demo o2) {
+    public int compare(Product o1, Product o2) {
 
         double result = o1.getPrice() - o2.getPrice();
+
         if (result == 0) {
             return o1.getId() - o2.getId();
         }

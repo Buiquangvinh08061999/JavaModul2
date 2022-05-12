@@ -1,23 +1,24 @@
 package _12_java_collection_framework._2exercise;
 
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.util.Scanner;
 
-public class ProductManager_demo {
+public class ProductManager {
     public static Scanner scanner = new Scanner(System.in);
 
-    public static List<Product_demo> listProduct = new ArrayList<>();
+    public static List<Product> listProduct = new ArrayList<>();
 
     public static void main(String[] args) {
-        listProduct.add(new Product_demo(1,"A",100));
-        listProduct.add(new Product_demo(2,"B",100));
-        listProduct.add(new Product_demo(3,"C",90));
+        listProduct.add(new Product(1,"A",100));
+        listProduct.add(new Product(2,"B",110));
+        listProduct.add(new Product(3,"C",100));
+        listProduct.add(new Product(4,"C",100));
+
     mainMenu();
     }
     public static void displayProduct(){
-        for (Product_demo product:listProduct){
+        for (Product product:listProduct){
             System.out.println(product.toString());
         }
     }
@@ -40,7 +41,7 @@ public class ProductManager_demo {
             }
         }
         if (flag){
-            listProduct.add(new Product_demo(id,name,price));
+            listProduct.add(new Product(id,name,price));
             System.out.println("Đã thêm thành công");
         }
     }
@@ -50,7 +51,7 @@ public class ProductManager_demo {
         int id = Integer.parseInt(scanner.nextLine());
 
         boolean flag = false;
-        for (int i = 0 ; i< listProduct.size();i++){
+        for (int i = 0 ; i < listProduct.size();i++){
             if(id == listProduct.get(i).getId()){
                 System.out.println("Nhập tên mới: ");
                 String name = scanner.nextLine();
@@ -92,40 +93,39 @@ public class ProductManager_demo {
         System.out.println("Nhập tên muốn tìm: ");
         String name = scanner.nextLine();
 
-        boolean flag = false;
+        List<Product> listSearch = new ArrayList<>();
         for (int i = 0 ; i< listProduct.size(); i++){
             if (listProduct.get(i).getName().contains(name)){
-                System.out.println(listProduct.get(i));
-                flag=true;
-                break;
+                listSearch.add(listProduct.get(i));
             }
         }
-        if (!flag){
-            System.out.println("Tên không có, vui lòng nhập lại");
+        if (listSearch.isEmpty()) {
+            System.out.println("không có sản phẩm như tên tìm kiếm");
             searchProductName();
         }
+        System.out.println("Danh sách sản phẩm tìm kiếm được : ");
+        for (Product product : listSearch) {
+            System.out.println(product.toString());
+        }
+
     }
 
     public static void  ascending(){
         listProduct.sort(new ProductAscending());
+        displayProduct();
     }
 
-    public static void   descending(){
-
+    public static void decrease(){
+        listProduct.sort(new ProductDecrease());
+        displayProduct();
     }
-
-
-
-
-
-
 
 
 
     public static void mainMenu(){
         do {
             showMenu();
-            System.out.println("Chọn");
+            System.out.println("Chọn: ");
             int choice =Integer.parseInt(scanner.nextLine());
             switch (choice){
                 case 1:
@@ -144,9 +144,12 @@ public class ProductManager_demo {
                     searchProductName();
                     break;
                 case 6:
-                    descending();
+                    ascending();
                     break;
                 case 7:
+                    decrease();
+                    break;
+                case 8:
                     System.exit(0);
                     break;
                 default:
@@ -156,11 +159,6 @@ public class ProductManager_demo {
         }while (true);
     }
 
-
-
-
-
-
     public static  void showMenu(){
         System.out.println("--------------Enter your choice1--------------");
         System.out.println("1. Hiển thị danh sách sản phẩm1");
@@ -168,7 +166,8 @@ public class ProductManager_demo {
         System.out.println("3. Sửa thông tin sản phẩm theo id");
         System.out.println("4. Xoá sản phẩm theo id");
         System.out.println("5. Tìm kiếm sản phẩm theo tên");
-        System.out.println("6. Sắp xếp sản phẩm tăng dần, giảm dần theo giá");
-        System.out.println("7. Exit");
+        System.out.println("6. Sắp xếp sản phẩm tăng dần");
+        System.out.println("7. Sắp xếp sản phẩm giảm dần");
+        System.out.println("8. Exit");
     }
 }
