@@ -5,129 +5,183 @@ import java.util.*;
 import java.util.Scanner;
 
 public class ProductManager {
-    public static Scanner scanner = new Scanner(System.in);
+    public  Scanner scanner = new Scanner(System.in);
 
-    public static List<Product> listProduct = new ArrayList<>();
+    public  List<Product> listProduct;
 
-    public static void main(String[] args) {
-        listProduct.add(new Product(1,"A",100));
-        listProduct.add(new Product(2,"B",110));
-        listProduct.add(new Product(3,"C",100));
-        listProduct.add(new Product(4,"C",100));
-
-    mainMenu();
+    public ProductManager(){
+        listProduct = new ArrayList<>();
+        listProduct.add(new Product(1,"a",11));
+        listProduct.add(new Product(2, "B", 110));
+        listProduct.add(new Product(3, "C", 100));
+        listProduct.add(new Product(4, "C", 100));
     }
-    public static void displayProduct(){
-        for (Product product : listProduct){
+
+    public void displayProduct() {
+        for (Product product : listProduct) {
             System.out.println(product.toString());
         }
     }
 
-    public static void addProduct(){
-        System.out.println("Nhập id: ");
-        int id = Integer.parseInt(scanner.nextLine());
-        System.out.println("Nhập tên sp: ");
-        String name = scanner.nextLine();
-        System.out.println("Nhập giá: ");
-        double price = Double.parseDouble(scanner.nextLine());
-
-        boolean flag = true;
-        for (int i = 0; i < listProduct.size();i++){
-            if (id == listProduct.get(i).getId()){
-                System.out.println("Trùng ID vui lòng nhập lại");
-                flag = false;
-                addProduct();
-                break;
+    public boolean checkID(int id) {
+        for (Product product : listProduct) {
+            if (id == product.getId()) {
+                return true;
             }
         }
-        if (flag){
-            listProduct.add(new Product(id,name,price));
+        return false;
+    }
+
+    public  void addProduct() {
+        System.out.println("Nhập id: ");
+        int id = Integer.parseInt(scanner.nextLine());
+
+        if (checkID(id)) {
+            System.out.println("ID " + id + " đã tồn tại vui lòng nhập lại!");
+            addProduct();
+            return;
+        }
+        if (!checkID(id)) {
+            System.out.println("Nhập tên sp : ");
+            String name = scanner.nextLine();
+            System.out.println("Nhập giá : ");
+            double price = Double.parseDouble(scanner.nextLine());
+
+            listProduct.add(new Product(id, name, price));
             System.out.println("Đã thêm thành công");
         }
     }
 
-    public static void changeProductId(){
+
+    public  void changeProductId() {
         System.out.println("Nhập ID muốn sửa: ");
         int id = Integer.parseInt(scanner.nextLine());
 
-        boolean flag = false;
-        for (int i = 0 ; i < listProduct.size();i++){
-            if(id == listProduct.get(i).getId()){
-                System.out.println("Nhập tên mới: ");
-                String name = scanner.nextLine();
-                System.out.println("Nhập giá mới : ");
-                double price = Double.parseDouble(scanner.nextLine());
-                listProduct.get(i).setName(name);
-                listProduct.get(i).setPrice(price);
-                flag = true;
+        if (checkID(id)) {
+            menuChangeProductID();
+            for (Product product : listProduct){
+                int choice = Integer.parseInt(scanner.nextLine());
+                switch (choice) {
+                    case 1:
+                        System.out.println("Nhập tên mới: ");
+                        String name = scanner.nextLine();
+                        product.setName(name);
+                        break;
+                    case 2:
+                        double price = 0;
+                        do {
+                            try {
+                                System.out.println("Nhập giá mới : ");
+                                price = Double.parseDouble(scanner.nextLine());
+                                product.setPrice(price);
+                                while (price <= 0) {
+                                    System.out.println("Giá không hợp lên vui lòng nhập lại!");
+                                    price = Double.parseDouble(scanner.nextLine());
+                                    product.setPrice(price);
+                                }
+                            } catch (Exception o) {
+                                System.out.println("Yêu cầu nhập số nguyên! ");
+                            }
+                        } while (price <= 0);
+                        break;
+                    case 3:
+                        System.out.println("Nhập tên mới: ");
+                        String name1 = scanner.nextLine();
+                        System.out.println("Nhập giá mới : ");
+                        double price1 = Double.parseDouble(scanner.nextLine());
+                        product.setName(name1);
+                        product.setPrice(price1);
+                        break;
+                    case 4:
+                        changeProductId();
+                        break;
+                    case 5:
+                        mainMenu();
+                        break;
+                    case 6:
+                        System.exit(0);
+                        break;
+                }
                 System.out.println("Sửa thành công: ");
                 break;
             }
         }
-        if(!flag){
+        if (!checkID(id)) {
             System.out.println("Không có ID này, vui lòng nhập lại : ");
             changeProductId();
         }
     }
 
-    public static void removeProductId(){
+    public void menuChangeProductID() {
+        System.out.println(" 1: Sửa Tên ");
+        System.out.println(" 2: Sửa Giá ");
+        System.out.println(" 3: Sửa tên và Giá ");
+        System.out.println(" 4: Chọn lại ID muốn sửa ");
+        System.out.println(" 5: Quay lại MeNu Chính");
+        System.out.println(" 6: Thoát");
+
+    }
+
+
+
+    public  void removeProductId() {
         System.out.println("Nhập ID muốn xóa: ");
         int id = Integer.parseInt(scanner.nextLine());
 
-        boolean flag =false;
-        for (int i = 0; i< listProduct.size();i++){
-            if(id == listProduct.get(i).getId()){
+        boolean flag = false;
+        for (int i = 0; i < listProduct.size(); i++) {
+            if (id == listProduct.get(i).getId()) {
                 listProduct.remove(i);
                 flag = true;
                 System.out.println("Xóa theo id sản phẩm thành công, danh sách mới là: ! ");
                 displayProduct();
             }
         }
-        if(!flag){
+        if (!flag) {
             System.out.println("Không tìm thấy ID này, vui lòng nhập lại ID: ");
             removeProductId();
         }
     }
 
-    public static void searchProductName(){
+    public  void searchProductName() {
         System.out.println("Nhập tên muốn tìm: ");
         String name = scanner.nextLine();
 
         List<Product> listSearch = new ArrayList<>();
-        for (int i = 0 ; i< listProduct.size(); i++){
-            if (listProduct.get(i).getName().contains(name)){
+
+        for (int i = 0; i < listProduct.size(); i++) {
+            if(listProduct.get(i).getName().toLowerCase().contains(name)) {
                 listSearch.add(listProduct.get(i));
             }
         }
         if (listSearch.isEmpty()) {
-            System.out.println("không có sản phẩm như tên tìm kiếm");
+            System.out.println("Tên tìm kiếm không có vui lòng nhập lại");
             searchProductName();
         }
         System.out.println("Danh sách sản phẩm tìm kiếm được : ");
         for (Product product : listSearch) {
             System.out.println(product.toString());
         }
-
     }
 
-    public static void  ascending(){
+
+    public  void ascending() {
         listProduct.sort(new ProductAscending());
         displayProduct();
     }
 
-    public static void decrease(){
+    public void decrease() {
         listProduct.sort(new ProductDecrease());
         displayProduct();
     }
 
 
-
-    public static void mainMenu(){
+    public  void mainMenu() {
         do {
             showMenu();
             System.out.println("Chọn: ");
-            int choice =Integer.parseInt(scanner.nextLine());
-            switch (choice){
+            int choice = Integer.parseInt(scanner.nextLine());
+            switch (choice) {
                 case 1:
                     displayProduct();
                     break;
@@ -156,13 +210,13 @@ public class ProductManager {
                     System.out.println("Không có lựa chọn này: ");
                     break;
             }
-        }while (true);
+        } while (true);
     }
 
-    public static  void showMenu(){
+    public void showMenu() {
         System.out.println("--------------Enter your choice1--------------");
-        System.out.println("1. Hiển thị danh sách sản phẩm1");
-        System.out.println("2. Thêm sản phẩm1");
+        System.out.println("1. Hiển thị danh sách sản phẩm");
+        System.out.println("2. Thêm sản phẩm mới");
         System.out.println("3. Sửa thông tin sản phẩm theo id");
         System.out.println("4. Xoá sản phẩm theo id");
         System.out.println("5. Tìm kiếm sản phẩm theo tên");
