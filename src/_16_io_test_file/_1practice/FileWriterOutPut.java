@@ -2,7 +2,7 @@ package _16_io_test_file._1practice;
 
 import java.io.IOException;
 
-public class FileWriter {
+public class FileWriterOutPut {
     public static void main(String[] args) throws IOException {
         String str = "File";
         java.io.FileWriter fw = new java.io.FileWriter("output.txt");
