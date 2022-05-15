@@ -17,7 +17,9 @@ public interface IProductService {
 
     void removeProductByID(int id);
 
-    void searchName(String name);
+    Product searchName(String name);
+
+    boolean exitsByName(String name);
 
     List<Product> searchProductByName(String name);
 

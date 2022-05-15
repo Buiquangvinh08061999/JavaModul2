@@ -11,8 +11,8 @@ public class ProductService implements IProductService {
 
     public ProductService() {
         productList.add(new Product(1, "Aa", 100));
-        productList.add(new Product(2, "B", 200));
-        productList.add(new Product(3, "Aaaac", 200));
+        productList.add(new Product(2, "C", 200));
+        productList.add(new Product(3, "a", 200));
         productList.add(new Product(4, "Ba", 200));
 
     }
@@ -51,24 +51,29 @@ public class ProductService implements IProductService {
     public void removeProductByID(int id) {
         for (int i = 0; i < productList.size(); i++) {
             if (id == productList.get(i).getId()) {
-                productList.remove(productList.get(i));
+                productList.remove(i);
             }
         }
     }
 
     @Override
-    public void searchName(String name) {
-        for (int i = 0 ; i < productList.size();i++){
-            if (productList.get(i).getName().contains(name)){
-                return ;
+    public Product searchName(String name) {
+        for (Product product : productList) {
+            if(product.getName().contains(name)){
+                return product;
             }
         }
+        return null;
     }
+    @Override
+    public boolean exitsByName(String name) {
+        return searchName(name) !=null;
+    }
+
 
     @Override
     public List<Product> searchProductByName(String name) {
         List<Product> searchList = new ArrayList<>();
-
         for (Product product : productList){
             if (product.getName().contains(name)){
                 searchList.add(product);

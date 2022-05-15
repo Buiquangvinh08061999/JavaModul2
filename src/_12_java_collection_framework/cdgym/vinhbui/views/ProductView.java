@@ -56,6 +56,7 @@ public class ProductView {
         System.out.println("ID không tồn tại ");
     }
 
+
     public void removeProductID(){
         System.out.println("Nhập ID muốn Xóa:");
         int id = Integer.parseInt(scanner.nextLine());
@@ -71,14 +72,16 @@ public class ProductView {
         System.out.println("Nhập tên muốn tìm");
         String name = scanner.nextLine();
         System.out.println("Từ khóa " + name + " tìm được trong danh sách là: ");
-        for (Product product : products){
-            if(product.getName().contains(name)){
-                displayProduct(productService.searchProductByName(name));
-                return;
-            }
+          for (Product product : products){
+              if (productService.exitsByName(name)){
+                  displayProduct(productService.searchProductByName(name));
+                  return;
+              }
+          }
+        System.out.println("không có trong danh sách!");
         }
-        System.out.println("không có từ khóa này trong danh sách ");
-    }
+
+
 
 
 
@@ -109,7 +112,7 @@ public class ProductView {
                     displayProduct(productService.findAll());
                     break;
                 case 5:
-                    searchName(productService.findAll());
+                   searchName(productService.findAll());
                     break;
                 case 6:
                     displayProduct(productService.findAllByPriceASC());
