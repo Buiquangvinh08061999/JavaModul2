@@ -1,0 +1,7 @@
+Red
+Yellow
+Black
+Blue
+White
+Day
+End
