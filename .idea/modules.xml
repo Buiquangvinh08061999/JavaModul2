@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JavaModul2.iml" filepath="$PROJECT_DIR$/.idea/JavaModul2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/WEEK2/WEEK2.iml" filepath="$PROJECT_DIR$/WEEK2/WEEK2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CheckLeapYear.java.iml" filepath="$PROJECT_DIR$/CheckLeapYear.java.iml" />
     </modules>
   </component>
 </project>

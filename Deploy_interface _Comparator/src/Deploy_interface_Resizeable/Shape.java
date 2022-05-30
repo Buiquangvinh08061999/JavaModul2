@@ -3,6 +3,7 @@ package Deploy_interface_Resizeable;
 public class Shape {
     public String color = "Red";
     public boolean filled = true;
+
     public Shape(){
     }
 

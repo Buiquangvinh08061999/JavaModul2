@@ -4,10 +4,11 @@ public class Main {
     public static void main(String[] args) {
         MyList<Integer> mylist = new MyList<>();
 
-        mylist.add(10);
-        mylist.add(20);
-        mylist.add(30);
-        mylist.add(2,40);
+        mylist.add(1);
+        mylist.add(2);
+        mylist.add(3);
+        mylist.add(4);
+        mylist.add(2,5);
 
         System.out.println(mylist.toString());
     }

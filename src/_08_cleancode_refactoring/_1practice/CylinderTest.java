@@ -2,6 +2,7 @@ package _08_cleancode_refactoring._1practice;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+
 public class CylinderTest {
     @Test
     @DisplayName("Testing getVolume(0, 0) ")
@@ -11,6 +12,7 @@ public class CylinderTest {
         double result = Cylinder.getVolume(0,0);
         assertEquals(expected, result);
     }
+
     @Test
     @DisplayName("Testing getVolume(1, 2)")
     void testGetVolume1and2(){

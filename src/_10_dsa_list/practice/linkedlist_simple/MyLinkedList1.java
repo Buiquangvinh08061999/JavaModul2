@@ -15,6 +15,7 @@ public class MyLinkedList1 {
             return data;
         }
     }
+
     private Node head;
     private int numNodes = 0;
 
@@ -23,13 +24,19 @@ public class MyLinkedList1 {
     }
 
     void  add(int index, Object data){
-        Node temp = head;
-        for (int i = 0 ; i < index-1 && temp.next!=null; i++){
-            temp = temp.next;
+        if(index!=0){
+            Node temp = head;
+            for (int i = 0 ; i < index-1 && temp.next!=null; i++){
+                temp = temp.next;
+            }
+            Node holder = temp.next;
+            temp.next = new Node(data);
+            temp.next.next = holder;
+        }else {
+            Node n = new Node(data);
+            n.next = head;
+            head = n;
         }
-        Node holder = temp;
-        temp.next = new Node(data);
-        temp.next.next = holder;
         numNodes++;
     }
 

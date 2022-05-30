@@ -1,8 +1,8 @@
 package Deploy_interface_Resizeable;
 
 public class Rectangle extends Shape implements Resizeable {
-    public  double width;
-    public  double lenth;
+    private   double width;
+    private   double lenth;
 
     public Rectangle(){
     }

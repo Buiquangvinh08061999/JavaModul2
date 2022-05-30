@@ -68,6 +68,7 @@ public class ProductView {
         System.out.println("ID không tồn tại ");
     }
 
+
     public void searchName(List<Product> products){
         System.out.println("Nhập tên muốn tìm");
         String name = scanner.nextLine();
@@ -80,9 +81,6 @@ public class ProductView {
           }
         System.out.println("không có trong danh sách!");
         }
-
-
-
 
 
     public void menuManager(){
@@ -112,7 +110,7 @@ public class ProductView {
                     displayProduct(productService.findAll());
                     break;
                 case 5:
-                   searchName(productService.findAll());
+                    searchName(productService.findAll());
                     break;
                 case 6:
                     displayProduct(productService.findAllByPriceASC());

@@ -24,7 +24,7 @@ public class MainClass {
                 System.out.println("Tổng 3 cạnh của tam giác là : " + sum);
                 break;
 
-            } catch (IllegalTriangleException e) {
+            } catch (kiemTraHinhTamGiac e) {
                 System.out.println(e.getMessage());
 
             }catch (Exception o ){
@@ -32,12 +32,12 @@ public class MainClass {
             }
     }
 
-    public static void check(int a, int b, int c) throws IllegalTriangleException {
+    public static void check(int a, int b, int c) throws kiemTraHinhTamGiac {
         if (a < 0 || b < 0 || c < 0) {
-            throw new IllegalTriangleException("Không cho nhập số âm ");
+            throw new kiemTraHinhTamGiac("Không cho nhập số âm ");
         }
         if( a + b <= c || a + c <= b || c + b <= a ){
-            throw new IllegalTriangleException("Không phải 3 cạnh của tam giác");
+            throw new kiemTraHinhTamGiac("Không phải 3 cạnh của tam giác");
         }
     }
 }

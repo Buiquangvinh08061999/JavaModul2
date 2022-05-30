@@ -14,7 +14,7 @@ public class MyGenericStack_1<T> {
     }
 
     public T pop(){
-        if (stack.isEmpty()){
+        if (isEmpty()){
             throw new RuntimeException();
         }
         return stack.removeFirst();
@@ -22,6 +22,7 @@ public class MyGenericStack_1<T> {
     public  int size(){
         return stack.size();
     }
+
     public boolean isEmpty(){
         if (stack.size() == 0){
             return true;

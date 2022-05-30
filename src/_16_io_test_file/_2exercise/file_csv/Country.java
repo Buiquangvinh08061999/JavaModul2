@@ -1,16 +1,16 @@
 package _16_io_test_file._2exercise.file_csv;
 
 public class Country {
-    private  int id;
-    private String code;
-    private String name;
+  private int id;
+  private String code;
+  private String name;
 
-    public Country(String str){
-        String[] strArray = str.split(",");
-        this.id = Integer.parseInt(strArray[0]);
-        this.code = strArray[1];
-        this.name = strArray[2];
-    }
+  public Country(String str){
+      String[] strArray = str.split(",");
+      this.id = Integer.parseInt(strArray[0]);
+      this.code = strArray[1];
+      this.name = strArray[2];
+  }
 
     public int getId() {
         return id;
@@ -38,10 +38,10 @@ public class Country {
 
     @Override
     public String toString() {
-        return "Country{" +
+        return "Country[" +
                 "id=" + id +
                 ", code='" + code + '\'' +
                 ", name='" + name + '\'' +
-                '}';
+                ']';
     }
 }

@@ -5,36 +5,37 @@ import java.io.*;
 
 
 public class ReadAndWriteFile {
-    public List<Integer> readFile(String filePath){
-        List<Integer> number = new ArrayList<>();
-        try {
-            File file = new File(filePath);
-            if(!file.exists()){
-                throw new FileNotFoundException();
-            }
-            BufferedReader docfile = new BufferedReader(new FileReader(file));
+   public List<Integer> readFile(String path){
+       List<Integer> number = new ArrayList<>();
 
-            String line = "";
-            while ((line = docfile.readLine())!=null){
-                number.add(Integer.parseInt(line));
-            }
-            docfile.close();
+       try {
+           File file = new File(path);
+           if(!file.exists()){
+               throw new FileNotFoundException();
+           }
+           BufferedReader br = new BufferedReader(new FileReader(file));
 
-        } catch (Exception e) {
-            System.out.println("File lỗi");;
-        }
-        return number;
-    }
+           String line ="";
+           while ((line = br.readLine()) !=null){
+               number.add(Integer.parseInt(line));
+           }
+           br.close();
 
-    public void writeFile(String filePath, int max){
-        try {
-            FileWriter writer = new FileWriter(filePath,true);
-            BufferedWriter bufferedWriter = new BufferedWriter(writer);
+       }catch (Exception e){
+           System.out.println("");
+       }
+       return number;
+   }
 
-            bufferedWriter.write("Giá trị lớn nhất là: " + max);
-            bufferedWriter.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+   public void writeFile(String path, int max){
+       try {
+            FileWriter file = new FileWriter(path);
+            BufferedWriter bw = new BufferedWriter(file);
+            bw.write("Gia trị max là:" + max);
+            bw.close();
+
+       }catch (Exception e){
+        e.printStackTrace();
+       }
+   }
 }

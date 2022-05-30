@@ -4,43 +4,50 @@ import java.io.*;
 import java.util.*;
 
 public class ReadAndWriteFile2 {
-    public List<String> readFile(String filePath) {
-
+    public List<String> readFile(String path) {
         List<String> str = new ArrayList<>();
+
         try {
-            File file = new File(filePath);
+            File file = new File(path);
             if (!file.exists()) {
                 throw new FileNotFoundException();
             }
+            BufferedReader br = new BufferedReader(new FileReader(file));
 
-            BufferedReader docfile = new BufferedReader(new FileReader(file));
             String line = "";
-            while ((line = docfile.readLine()) != null) {
+            while ((line = br.readLine()) != null) {
                 str.add(line);
             }
+            br.close();
 
-            docfile.close();
-        }catch (Exception o ){
-            System.out.println("File không tồn tại hoặc nội dung có lỗi");
+        } catch (Exception e) {
+            System.out.println("File lỗi");
         }
-        System.out.println("Đọc têp và nhận giá trị hoàn tất");
+        System.out.println("đọc file thành công");
         return str;
     }
 
-    public void coppyFile(String filePath, List<String> str){
+
+    public void coppyFile(String path, List<String> str){
         try {
-            FileWriter writer = new FileWriter(filePath,true);
-            BufferedWriter bufferedWriter = new BufferedWriter(writer);
-            for(String elements: str){
-                bufferedWriter.write(elements + "\n");
+            FileWriter file = new FileWriter(path);
+            BufferedWriter bw = new BufferedWriter(file);
 
+            for (String element : str){
+                bw.write(element+ "\n");
             }
-            bufferedWriter.close();
+            bw.close();
 
-        }catch (IOException e){
-            e.printStackTrace();
+        }catch (Exception e){
+            System.out.println("File lỗi");
         }
-        System.out.println("Sao chép tệp hoàn tất");
+        System.out.println("Coppy file thành công");
+    }
 
+    public static void main(String[] args) {
+        ReadAndWriteFile2 read = new ReadAndWriteFile2();
+        List<String> str = read.readFile("_16_io_test_file/_2exercise/copy_file_text/origin.txt");
+        read.coppyFile("_16_io_test_file/_2exercise/copy_file_text/coppy.txt",str);
     }
 }
+

@@ -1,2 +1,4 @@
-package _18_Threading;public class Main {
+package _18_Threading;
+
+public class Main {
 }

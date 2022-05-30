@@ -16,6 +16,7 @@ public class CountStringMap {
         for (int i = 0 ; i < arrayStr.length;i++){
           if(treeMap.containsKey(arrayStr[i])){
                 treeMap.put(arrayStr[i], treeMap.get(arrayStr[i] + 1));
+
           }else {
                 treeMap.put(arrayStr[i], 1);
           }

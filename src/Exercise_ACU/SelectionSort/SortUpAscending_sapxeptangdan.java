@@ -17,7 +17,6 @@ public class SortUpAscending_sapxeptangdan {
                 }
             }
         }
-//        return  array;
 
     }
 }

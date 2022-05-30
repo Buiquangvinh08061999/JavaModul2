@@ -12,7 +12,7 @@ public class Find_Biggest_String {
         LinkedList<Character> max = new LinkedList<>();
         max.add(string.charAt(0));
 
-        for (int i =1; i < string.length();i++){
+        for (int i = 1; i < string.length();i++){
             if(string.charAt(i) > max.getLast()){
                 max.add(string.charAt(i));
             }

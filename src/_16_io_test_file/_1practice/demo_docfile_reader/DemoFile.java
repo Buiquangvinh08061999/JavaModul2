@@ -9,7 +9,7 @@ public class DemoFile {
         InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
         BufferedReader reader = new BufferedReader(inputStreamReader);
 
-        String line ="";
+        String line = "";
         while ((line = reader.readLine())!=null){
             System.out.println(line);
         }

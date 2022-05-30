@@ -1,11 +1,10 @@
 package Text;
-
+import java.io.*;
 public class text {
     public static void main(String[] args) {
 
-        while (true){
-            continue;
-        }
+        File dir = new File("dir");
+        File f = new File(dir, "f");
 
 
     }

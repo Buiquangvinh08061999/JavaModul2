@@ -1,119 +1,118 @@
 package _10_dsa_list.exercise.use_linkedlist_with_library;
 
-import org.w3c.dom.Node;
+public class MyLinkedList<E> {
 
-public class MyLinkedList1<E> {
     private Node head;
-    private int numNodes = 0;
+    private int numberNodes=0;
+    private boolean flag;
 
     public class Node {
         private Node next;
         private Object data;
-
+        // phương thức khởi tạo
         public Node(Object data) {
             this.data = data;
         }
 
         public Object getData() {
-            return data;
+            return this.data;
         }
     }
+    public MyLinkedList(){
+    }
 
-    public void add(int index, E e) {
+    public MyLinkedList(Object data) {
+        head = new Node(data);
+    }
+
+
+
+    public void add(int index, Object data) {
         Node temp = head;
-        for (int i = 0; i < index - 1 && temp.next != null; i++) {
+
+        for (int i = 0; i < index -1; i++){
             temp = temp.next;
         }
+
         Node holder = temp.next;
-        temp.next = new Node(e);
+        temp.next = new Node(data);
         temp.next.next = holder;
-        numNodes++;
+
+        numberNodes++;
     }
-
-
-    public void addFirst(E e) {
+    public void addFirst(Object data) {
         Node temp = head;
-        head = new Node(e);
+        head = new Node(data);
         head.next = temp;
-        numNodes++;
+        numberNodes++;
     }
-
-
-
-    public void addLast(E e) {
-        if (numNodes == 0) {
-            head = new Node(e);
-            numNodes++;
-            return;
-        }
-        Node temp = head;
-        for (int i = 0; i < numNodes - 1 && temp.next != null; i++) {
-            temp = temp.next;
-        }
-        Node holder = temp.next;
-        temp.next = new Node(e);
-        temp.next.next = holder;
-        numNodes++;
-    }
-
-    public void remove(int index) {
-        if (index < 0 || index >= numNodes) {
-            System.out.println("Chỉ mục không hợp lệ");
-        } else {
-
+    public void addLast(Object data) {
+        if (head == null){
+            addFirst(data);
+        }else {
 
             Node temp = head;
-            for (int i = 0; i < index - 1 && temp.next != null; i++) {
+            while (temp.next != null){
                 temp = temp.next;
             }
-            Node holder = temp.next.next;
-            temp.next = holder;
-            numNodes--;
+            temp.next = new Node(data);
         }
+        numberNodes++;
     }
-
-    public int size() {
-        return numNodes;
-    }
-
-
-    public boolean contains(E o) {
+    public void remove(int index) {
         Node temp = head;
-        for (int i = 0; i < numNodes; i++) {
-            if (temp.data.equals(o)) {
-                return true;
-            }
+        for (int i=0; i<index -1 ; i++){
             temp = temp.next;
         }
-        return false;
+        temp.next = temp.next.next;
+        numberNodes--;
     }
 
-    public int indexOf(E o) {
+    public void get(int index) {
         Node temp = head;
-        for (int i = 0; i < numNodes; i++) {
-            if (temp.data.equals(o)) {
-                return i;
-            }
+        for (int i = 0; i < index - 1; i++)
             temp = temp.next;
+        System.out.println(temp.data);
+    }
+
+    public void size() {
+        Node temp = head;
+        int i = 0;
+        while (temp != null) {
+            temp = temp.next;
+            i++;
         }
-        return -1;
+        System.out.println(i);
     }
 
-    public Node getFirst() {
-        if (numNodes != 0) {
-            return head;
-        } else {
-            return null;
+    public boolean contains(Object data) {
+        Node temp = head;
+        for (int i = 0; i <= numberNodes; i++) {
+            if ((temp.data).equals(data)) {
+                flag = true;
+                break;
+            }
+            else {
+                flag = false;
+                temp = temp.next;
+            }
         }
+        return flag;
     }
 
-    public Node getLast() {
-        return null;
-    }
-
-    public void clear() {
-        head = null;
-        numNodes = 0;
+    public int indexOf(Object data) {
+        Node temp = head;
+        int result = 0;
+        for (int i = 0; i <= numberNodes; i++) {
+            if ((temp.data).equals(data)) {
+                result = i;
+                break;
+            }
+            else {
+                temp = temp.next;
+            }
+        }
+        return result;
     }
 
     public void printList() {
@@ -123,7 +122,6 @@ public class MyLinkedList1<E> {
             temp = temp.next;
         }
     }
-
 
 
 }
