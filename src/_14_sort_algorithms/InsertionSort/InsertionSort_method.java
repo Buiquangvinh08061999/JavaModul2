@@ -17,7 +17,7 @@ public class InsertionSort_method {
             key = array[i];
             pos = i  ;
 
-            while (pos >0 && key < array[pos-1]){
+            while (pos > 0 && key < array[pos-1]){
                 array[pos] = array[pos-1];
                 pos--;
             }
